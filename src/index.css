@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+.bg-gradient {
+  background: linear-gradient(86deg, rgba(49,211,92,1) 17%, rgba(43,183,218,1) 100%);
+}
+
+.wrapper {
+  padding: 20px 150px;
+}
+
+@media (max-width: 768px) {
+  .wrapper{
+   padding: 20px 30px;
+  }
+ }
+
+
+.header-wrapper{
+  padding: 0 150px;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper{
+   padding: 20px 30px;
+  }
+ }
+
+header{
+  background-image: url(./assets/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 45rem;
+}
+
+@media (max-width: 768px) {
+  header{
+    background-image: url(./assets/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+ }
+
+.section-wrapper{
+  padding: 100px 150px;
+}
+
+@media (max-width: 768px) {
+  .section-wrapper{
+   padding: 60px 40px;
+  }
+ }
+
+.footer-wrapper{
+  padding: 40px 150px;
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper{
+   padding: 30px 60px;
+  }
+ }
+
+
+
+
+
+
