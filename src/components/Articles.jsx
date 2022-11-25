@@ -9,7 +9,7 @@ const Articles = () => {
     <section className="section-wrapper bg-veryLightGray text-center sm:text-left">
       <h2 className="text-4xl mb-10">Latest Articles</h2>
 
-      <div className="card-wrapper flex flex-col sm:flex-row justify-between">
+      <div className="card-wrapper flex flex-col sm:flex-row sm:justify-between sm:gap-6">
 
         <div className="card mb-8">
           <img className="w-[350px] h-[250px] rounded-t sm:w-[320px]" src={currency} alt="currency" />
